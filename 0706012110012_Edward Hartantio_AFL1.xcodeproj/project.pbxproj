@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0419AF5829AD9DF6000DE19F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0419AF5729AD9DF6000DE19F /* main.swift */; };
+		04BD700729DEF732009D9507 /* Skill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BD700629DEF732009D9507 /* Skill.swift */; };
+		04BD700929DEF7A5009D9507 /* Enemies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BD700829DEF7A5009D9507 /* Enemies.swift */; };
+		04CE40D329DD7F9800361392 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE40D229DD7F9800361392 /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		0419AF5429AD9DF6000DE19F /* 0706012110012_Edward Hartantio_AFL1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "0706012110012_Edward Hartantio_AFL1"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0419AF5729AD9DF6000DE19F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		04BD700629DEF732009D9507 /* Skill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skill.swift; sourceTree = "<group>"; };
+		04BD700829DEF7A5009D9507 /* Enemies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enemies.swift; sourceTree = "<group>"; };
+		04CE40D229DD7F9800361392 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				0419AF5729AD9DF6000DE19F /* main.swift */,
+				04CE40D229DD7F9800361392 /* Player.swift */,
+				04BD700629DEF732009D9507 /* Skill.swift */,
+				04BD700829DEF7A5009D9507 /* Enemies.swift */,
 			);
 			path = "0706012110012_Edward Hartantio_AFL1";
 			sourceTree = "<group>";
@@ -120,6 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04BD700729DEF732009D9507 /* Skill.swift in Sources */,
+				04CE40D329DD7F9800361392 /* Player.swift in Sources */,
+				04BD700929DEF7A5009D9507 /* Enemies.swift in Sources */,
 				0419AF5829AD9DF6000DE19F /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
